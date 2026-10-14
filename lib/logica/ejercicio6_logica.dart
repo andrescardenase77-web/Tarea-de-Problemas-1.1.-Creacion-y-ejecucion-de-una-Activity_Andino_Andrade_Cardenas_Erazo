@@ -11,13 +11,10 @@ class Ejercicio6Logica {
     switch(clave){
       case 1:
         return valor * 0.10;
-        break;
       case 2:
         return valor * 0.07;
-        break;
       case 3:
         return valor * 0.05;
-        break;
       default:
         return 0.0;
     }
