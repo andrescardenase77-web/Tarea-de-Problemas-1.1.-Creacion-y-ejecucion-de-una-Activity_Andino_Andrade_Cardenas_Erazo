@@ -20,7 +20,7 @@ class Ejercicio9Logica {
 
     if (numero == numeroSecreto) {
       juegoTerminado = true;
-      return '¡Acertaste! Lo lograste en $intentosUsados intento(s).';
+      return '¡Adivinaste mi numero era $numeroSecreto y lo lograste en $intentosUsados intento(s).';
     }
 
     if (intentosUsados >= maxIntentos) {
