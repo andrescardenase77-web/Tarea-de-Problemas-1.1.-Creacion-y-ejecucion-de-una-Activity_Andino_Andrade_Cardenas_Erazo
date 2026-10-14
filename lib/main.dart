@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const PantallaPrincipal(),
-        //'/ejercicio6': (context) => const Ejercicio6Pantalla(),
+        '/ejercicio6': (context) => const Ejercicio6Pantalla(),
         // '/ejercicio7': (context) => const Ejercicio7Pantalla(),
         // '/ejercicio8': (context) => const Ejercicio8Pantalla(),
         // '/ejercicio9': (context) => const Ejercicio9Pantalla(),

@@ -44,7 +44,7 @@ class PantallaPrincipal extends StatelessWidget {
             // Ejercicio 7: Banco Bandido de peluche
             ElevatedButton.icon(
               onPressed: () {
-                // Navigator.pushNamed(context, '/ejercicio7');
+                Navigator.pushNamed(context, '/ejercicio7');
               },
               icon: const Icon(Icons.account_balance),
               label: const Text('Ejercicio 7: Banco "Bandido de Peluche"'),
@@ -58,7 +58,7 @@ class PantallaPrincipal extends StatelessWidget {
             // Ejercicio 8: Ahorro Anual
             ElevatedButton.icon(
               onPressed: () {
-                // Navigator.pushNamed(context, '/ejercicio8');
+                Navigator.pushNamed(context, '/ejercicio8');
               },
               icon: const Icon(Icons.savings),
               label: const Text('Ejercicio 8: Control de Ahorro Anual'),
@@ -72,7 +72,7 @@ class PantallaPrincipal extends StatelessWidget {
             // Ejercicio 9: Adivinar el Número
             ElevatedButton.icon(
               onPressed: () {
-                // Navigator.pushNamed(context, '/ejercicio9');
+                Navigator.pushNamed(context, '/ejercicio9');
               },
               icon: const Icon(Icons.casino),
               label: const Text('Ejercicio 9: Juego Adivinar Número'),
@@ -86,7 +86,7 @@ class PantallaPrincipal extends StatelessWidget {
             // Ejercicio 10: Intervalo Numérico
             ElevatedButton.icon(
               onPressed: () {
-                // Navigator.pushNamed(context, '/ejercicio10');
+                Navigator.pushNamed(context, '/ejercicio10');
               },
               icon: const Icon(Icons.linear_scale),
               label: const Text('Ejercicio 10: Análisis de Intervalos'),
